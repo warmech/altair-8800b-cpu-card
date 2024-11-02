@@ -43,14 +43,14 @@
       (layerselection 0x00010fc_ffffffff)
       (plot_on_all_layers_selection 0x0000000_00000000)
       (disableapertmacros false)
-      (usegerberextensions false)
-      (usegerberattributes true)
-      (usegerberadvancedattributes true)
-      (creategerberjobfile true)
+      (usegerberextensions true)
+      (usegerberattributes false)
+      (usegerberadvancedattributes false)
+      (creategerberjobfile false)
       (dashed_line_dash_ratio 12.000000)
       (dashed_line_gap_ratio 3.000000)
       (svgprecision 4)
-      (plotframeref true)
+      (plotframeref false)
       (viasonmask false)
       (mode 1)
       (useauxorigin false)
@@ -63,15 +63,15 @@
       (psnegative false)
       (psa4output false)
       (plotreference true)
-      (plotvalue true)
+      (plotvalue false)
       (plotinvisibletext false)
       (sketchpadsonfab false)
-      (subtractmaskfromsilk false)
-      (outputformat 4)
+      (subtractmaskfromsilk true)
+      (outputformat 1)
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "../../pdf/")
+      (outputdirectory "../gerbers/")
     )
   )
 
@@ -9574,29 +9574,41 @@
     )
   )
 
-  (gr_circle (center 27.432 26.162) (end 29.732068 26.162)
+  (gr_line (start 274.548 19.558) (end 275.048 20.058)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 02abbebf-f3aa-48f8-9aad-8208b3315838))
+  (gr_circle (center 27.432 26.162) (end 28.932 26.162)
     (stroke (width 0.15) (type default)) (fill none) (layer "Edge.Cuts") (tstamp 17aa2016-32fd-4b2b-af04-bc81ac2bfd8d))
   (gr_arc (start 57.912 146.558) (mid 58.736487 146.899513) (end 59.078 147.724)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 1ba5a09b-628a-4a26-a823-4a73aeee9931))
-  (gr_line (start 59.078 154.178) (end 220.878 154.178)
+  (gr_line (start 59.578 154.178) (end 220.378 154.178)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 3eaec88b-81d4-4af6-8ff2-75fe6d7b56ec))
+  (gr_line (start 20.828 146.058) (end 21.328 146.558)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 40f21e7a-6078-48b9-a983-cffd762af9a3))
   (gr_arc (start 220.877998 147.723998) (mid 221.219512 146.899512) (end 222.043998 146.557998)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 442590ae-d8b5-42b6-bd57-742302254b1a))
-  (gr_line (start 20.828 19.558) (end 275.048 19.558)
+  (gr_line (start 20.828 20.058) (end 21.328 19.558)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 48eb9693-8912-4565-844d-b5f1c65f7006))
+  (gr_line (start 21.328 19.558) (end 274.548 19.558)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 514d7755-9a3d-41ce-a658-9ab52cbf4553))
-  (gr_line (start 20.828 146.558) (end 57.912 146.558)
+  (gr_line (start 59.078 153.678) (end 59.578 154.178)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 7575dc66-f803-40da-b6f4-fa177cf40881))
+  (gr_line (start 21.328 146.558) (end 57.912 146.558)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 779b0fe5-965d-4aa8-b9c0-25c4f7d8b29b))
-  (gr_line (start 222.043998 146.557998) (end 275.048 146.558)
+  (gr_line (start 222.043998 146.557998) (end 274.548 146.558)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 7958d06d-2cd2-4ddc-b982-ebfb5a69f358))
-  (gr_line (start 20.828 19.558) (end 20.828 146.558)
+  (gr_line (start 275.048 146.058) (end 274.548 146.558)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 7b1c7276-eb01-47e1-8858-c520d003b264))
+  (gr_line (start 20.828 20.058) (end 20.828 146.058)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 8dc796a3-2388-4ff7-aeac-70589b508e07))
-  (gr_line (start 275.048 19.558) (end 275.048 146.558)
+  (gr_line (start 220.878 153.678) (end 220.378 154.178)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 9072a7b9-939c-4950-8a24-a452dcd9f6e9))
+  (gr_line (start 275.048 20.058) (end 275.048 146.058)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 90d89a55-8279-46d6-be2c-bc667ddc4ac7))
-  (gr_circle (center 268.478 26.162) (end 270.778068 26.162)
+  (gr_circle (center 268.478 26.162) (end 269.978 26.162)
     (stroke (width 0.15) (type default)) (fill none) (layer "Edge.Cuts") (tstamp 967444b5-5788-4f47-820e-730c4cdd59c2))
-  (gr_line (start 59.078 147.724) (end 59.078 154.178)
+  (gr_line (start 59.078 147.724) (end 59.078 153.678)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp a614291c-6f3b-46d3-9117-a137265c5320))
-  (gr_line (start 220.877998 147.723998) (end 220.878 154.178)
+  (gr_line (start 220.877998 147.723998) (end 220.878 153.678)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp ada48f3c-6b51-45ab-aa62-a202a6b2d6e8))
   (gr_text "C" (at 146.558 29.464) (layer "F.SilkS") (tstamp 349a4425-c003-40bf-b653-2d79e02d7bea)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
@@ -13810,15 +13822,21 @@
       )
     )
   )
-  (group "" (id 835b6f70-2232-46df-ad01-bd89d103dd61)
+  (group "" (id b1c470ea-8f87-4cc5-a0a3-be418f5a49e9)
     (members
+      02abbebf-f3aa-48f8-9aad-8208b3315838
       1ba5a09b-628a-4a26-a823-4a73aeee9931
       3eaec88b-81d4-4af6-8ff2-75fe6d7b56ec
+      40f21e7a-6078-48b9-a983-cffd762af9a3
       442590ae-d8b5-42b6-bd57-742302254b1a
+      48eb9693-8912-4565-844d-b5f1c65f7006
       514d7755-9a3d-41ce-a658-9ab52cbf4553
+      7575dc66-f803-40da-b6f4-fa177cf40881
       779b0fe5-965d-4aa8-b9c0-25c4f7d8b29b
       7958d06d-2cd2-4ddc-b982-ebfb5a69f358
+      7b1c7276-eb01-47e1-8858-c520d003b264
       8dc796a3-2388-4ff7-aeac-70589b508e07
+      9072a7b9-939c-4950-8a24-a452dcd9f6e9
       90d89a55-8279-46d6-be2c-bc667ddc4ac7
       a614291c-6f3b-46d3-9117-a137265c5320
       ada48f3c-6b51-45ab-aa62-a202a6b2d6e8
